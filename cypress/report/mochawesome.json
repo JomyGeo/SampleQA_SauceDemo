@@ -1,0 +1,180 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-07T07:55:37.832Z",
+    "end": "2021-12-07T07:56:37.366Z",
+    "duration": 59534,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "27992f35-cb44-4a51-9dc9-ebf896c2197e",
+      "title": "",
+      "fullFile": "cypress/integration/FeatureFiles/LoginFeatures/login.feature",
+      "file": "cypress/integration/FeatureFiles/LoginFeatures/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "097e3cca-6953-43bd-a7f3-3a08d7eeab40",
+          "title": "Log into the application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login Mandatory alert validation on username and password fields",
+              "fullTitle": "Log into the application Login Mandatory alert validation on username and password fields",
+              "timedOut": null,
+              "duration": 6455,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d7ebd5b1-dea5-460f-88b8-143d60f1b12a",
+              "parentUUID": "097e3cca-6953-43bd-a7f3-3a08d7eeab40",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login Mandatory alert validation on username field",
+              "fullTitle": "Log into the application Login Mandatory alert validation on username field",
+              "timedOut": null,
+              "duration": 6989,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "97075a80-8806-4aad-a370-f9e3f7bd8b3e",
+              "parentUUID": "097e3cca-6953-43bd-a7f3-3a08d7eeab40",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login Mandatory alert validation on password field",
+              "fullTitle": "Log into the application Login Mandatory alert validation on password field",
+              "timedOut": null,
+              "duration": 3975,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "b74e8442-28b8-4874-b9fc-8fa76893a12a",
+              "parentUUID": "097e3cca-6953-43bd-a7f3-3a08d7eeab40",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login to the application by providing invalid user credentials",
+              "fullTitle": "Log into the application Login to the application by providing invalid user credentials",
+              "timedOut": null,
+              "duration": 5609,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "719182c9-bd43-4dea-b6a4-3544eec5a351",
+              "parentUUID": "097e3cca-6953-43bd-a7f3-3a08d7eeab40",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login to the application by providing valid user credentials",
+              "fullTitle": "Log into the application Login to the application by providing valid user credentials",
+              "timedOut": null,
+              "duration": 23876,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "38630d33-f1d6-4da2-9e02-6f0f1fe296ca",
+              "parentUUID": "097e3cca-6953-43bd-a7f3-3a08d7eeab40",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d7ebd5b1-dea5-460f-88b8-143d60f1b12a",
+            "97075a80-8806-4aad-a370-f9e3f7bd8b3e",
+            "b74e8442-28b8-4874-b9fc-8fa76893a12a",
+            "719182c9-bd43-4dea-b6a4-3544eec5a351",
+            "38630d33-f1d6-4da2-9e02-6f0f1fe296ca"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 46904,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report",
+        "charts": false,
+        "reportPageTitle": "Exterro E2E"
+      },
+      "version": "6.0.1"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "cypressautomation",
+  "version": "9.7.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "cypress:open": "cypress open"
+    
+  },
+  "author": "Jomy George",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.1.0",
+    "axe-core": "^4.4.1",
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress-failed-log": "^2.9.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mailosaur": "^2.6.0",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-wait-until": "^1.7.2",
+    "mocha": "^9.2.1",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "react-scripts": "^3.4.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.1.0",
+    "@cypress/webpack-preprocessor": "^5.12.0",
+    "multiple-cucumber-html-reporter": "^1.19.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "json": {
+        "enabled": true,
+        "output": "cypress/cucumber-json/cucumber-report.json"
+      }
+    },
+    "stepDefinitions": [
+      "cypress/e2e/*.{js,ts}",
+      "cypress/e2e/**/*.{js,ts}",
+      "[filepath]/**/*.{js,ts}",
+      "[filepath]/**/**/**/*.{js,ts}",
+      "[filepath].{js,ts}",
+      "cypress/e2e/**/**/*.{js,ts}",
+      "cypress/e2e/**/*.{js,ts}",
+      "[filepath]/**/*.{js,ts}",
+      "[filepath].{js,ts}",
+      "[filepart]/step_definitions/**/*.{js,ts}",
+      "[filepart]/step_definitions/*.{js,ts}",
+      "cypress/support/step_definitions/**/*.{js,ts}",
+      "cypress/support/step_definitions/*.{js,ts}",
+      "cypress/e2e/StepDefinitions/**/*.js"
+    ],
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+   
+  }
+}
