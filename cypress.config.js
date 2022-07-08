@@ -53,7 +53,7 @@ module.exports = defineConfig({
   video: false,
   videoCompression: 32,
   videoUploadOnPasses: false,
-  
+  filterSpecs : true,
   env: {
  
     fusionURL: 'https://www.saucedemo.com/',

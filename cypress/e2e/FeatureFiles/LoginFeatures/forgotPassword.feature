@@ -3,5 +3,5 @@ Feature: To validate the  forgot password
 
 
     Scenario: Forgot Password
-    Given Open the browser and load the URL
+    Given Open the Browser and Load the URL
   

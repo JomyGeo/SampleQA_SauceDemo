@@ -1,6 +1,6 @@
 {
   "name": "cypressautomation",
-  "version": "9.7.0",
+  "version": "10.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -33,28 +33,15 @@
     "multiple-cucumber-html-reporter": "^1.19.0"
   },
   "cypress-cucumber-preprocessor": {
-    "json": {
-      "enabled": true,
+    
       "json": {
         "enabled": true,
         "output": "cypress/cucumber-json/cucumber-report.json"
-      }
+      
     },
     "stepDefinitions": [
-      "cypress/e2e/*.{js,ts}",
-      "cypress/e2e/**/*.{js,ts}",
-      "[filepath]/**/*.{js,ts}",
-      "[filepath]/**/**/**/*.{js,ts}",
-      "[filepath].{js,ts}",
-      "cypress/e2e/**/**/*.{js,ts}",
-      "cypress/e2e/**/*.{js,ts}",
-      "[filepath]/**/*.{js,ts}",
-      "[filepath].{js,ts}",
-      "[filepart]/step_definitions/**/*.{js,ts}",
-      "[filepart]/step_definitions/*.{js,ts}",
-      "cypress/support/step_definitions/**/*.{js,ts}",
-      "cypress/support/step_definitions/*.{js,ts}",
-      "cypress/e2e/StepDefinitions/**/*.js"
+  
+      "cypress/e2e/StepDefinitions/LoginSteps/**/*.js"
     ],
     "cucumberJson": {
       "generate": true,
